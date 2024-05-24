@@ -1,0 +1,120 @@
+@charset "utf 8";   
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sedan+SC&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sedan+SC&display=swap");
+:root{
+    --font1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font2:"Sedan SC", serif;
+    --font3:"Abril Fatface", serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+body,html{  
+
+    background-color: darkgray;
+    color: white;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: 5vw;
+    font-family: var(--font3);
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p{
+    font-family: var(--font1);
+    padding-bottom: 50px;
+    font-size: 1vw;
+}
+
+  
+header a ,footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header:hover a ,footer:hover a{
+    text-decoration: underline;
+}
+
+section{
+    font-size:2vw;
+    font-family: var(--font2);;
+    line-height: 2em;
+    padding: 10vh 0px 10vh 30px;
+
+}
+
+section>p{
+    padding-bottom: 1em;
+    
+}
+
+section.imagem>p{
+    display:inline-block;
+    background-color: rgba(54, 53, 53, 0.507);
+    padding: 8px;
+    text-shadow: 1px 1px 5px rgba(19, 17, 17, 0.61);
+}
+
+section.imagem{
+background-color: rgba(126, 122, 122, 0.411);
+color: white;
+box-shadow: inset 6px 6px  13px 0px rgba(0, 0, 0, 0.527);
+}
+
+section#img01{
+    background-image: url("imagens/galinha.jpg");
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section#img02{
+    background-image: url("imagens/preguiça.jpg");
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03{
+    background-image: url("imagens/cabra.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img04{
+    background-image: url("imagens/bebe.jpg");
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.normal{background-color: rgba(223, 223, 210, 0.897);
+color: black;
+
+}
+
+section.normal>{
+    line-height: 10px
+    ;
+}
+
+footer{
+padding: 10px;
+font-size: 1vw;
+
+}
