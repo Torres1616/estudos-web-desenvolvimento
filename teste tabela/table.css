@@ -1,0 +1,64 @@
+@charset "utf 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+:root{
+    --cor0:#2f00ff;
+    --font_destaque: "Kode Mono", monospace;
+}
+
+    body{background-image:linear-gradient(to left ,rgba(238, 16, 16, 0.829), rgba(184, 129, 27, 0.767) );}
+ 
+table{
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-collapse: collapse;
+}
+
+td{
+    font:normal bolder 25px var(--font_destaque);
+    color: var(--cor0);
+    border: 02px solid black ;
+    padding: 0px 05px;
+    text-align: left;
+    vertical-align: bottom;
+    line-height: 1.2em;
+    
+    
+
+}
+
+
+
+.pri{text-align: center;
+    font: normal 50px "arial" ;
+    width: 0px;
+    color: black;
+    vertical-align: middle;
+    padding: 0px 10px;
+
+}
+
+.img{
+    width: 600px;
+    height: 100px;
+}
+
+#foto00{
+    background-image: url(imagens/foto00.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top center ;
+    opacity: 0.50;
+}
+
+.not{
+    width: 50px;
+}
