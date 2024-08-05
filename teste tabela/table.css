@@ -58,6 +58,11 @@ td{
     background-color: #E33C1D;
     color: aliceblue;}
 
+#nor{font:normal  60px var(--font_numero);
+    background-color: #DF8749;
+    color: #060606;}
+
+
 
 .img{
     width: 600px;
@@ -73,11 +78,54 @@ td{
     opacity: 0.80;
 }
 
+#foto01{
+    background-image: url(imagens/Kimetsu-no-yaiba-temporada-3-kanroji-kokushibo_zu3m.1200.webp);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:top;
+    opacity: 0.80;
+}
+
+#foto02{
+    background-image: url(imagens/bleach-anime-thousand-year-blood-war-sequel-8ywj3r3dau20istz.webp);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:center TOP;
+    opacity: 0.80;
+}
+
+#foto03{
+    background-image: url(imagens/Kurapika’s+Wrath.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:top ;
+    opacity: 0.80;
+}
+
+#foto04{
+    background-image: url(imagens/1b61a82e93af69607ae5a34f9cc29f20.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:top ;
+    opacity: 0.80;
+}
+
+#foto05{
+    background-image: url(imagens/saiyan-legend-goku-mighty-transformation-in-dragon-ball-su.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:top ;
+    opacity: 0.80;
+}
+
+ 
+
 .not{vertical-align: middle;
     text-align: center;
     width: 100px;
-    font:normal  25px var(--font_nota);
+    font:normal bolder 25px var(--font_nota);
     background-color:#1E1E1E;
     color: aliceblue;
 }
+
 
