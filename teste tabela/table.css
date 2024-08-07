@@ -36,7 +36,7 @@ td{
     vertical-align: bottom;
     line-height: 1.2em;
     font-size: 1.1em;
-   text-shadow: 1px 1px 2px black;
+   text-shadow: 1px 1px 3px black,-1px -1px 3px black,-1px 1px 3px black,1px -1px 3px black;
    letter-spacing: 3px;
     
 
@@ -75,7 +75,7 @@ td{
     background-size: cover; 
     background-repeat: no-repeat;
     background-position:top ;
-    opacity: 0.80;
+    opacity: 0.90;
 }
 
 #foto01{
@@ -83,7 +83,7 @@ td{
     background-size: cover; 
     background-repeat: no-repeat;
     background-position:top;
-    opacity: 0.80;
+    opacity: 0.90;
 }
 
 #foto02{
@@ -99,15 +99,15 @@ td{
     background-size: cover; 
     background-repeat: no-repeat;
     background-position:top ;
-    opacity: 0.80;
+    opacity: 0.90;
 }
 
 #foto04{
     background-image: url(imagens/1b61a82e93af69607ae5a34f9cc29f20.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    background-position:top ;
-    opacity: 0.80;
+    background-position:center ;
+    opacity: 0.90;
 }
 
 #foto05{
@@ -115,7 +115,38 @@ td{
     background-size: cover; 
     background-repeat: no-repeat;
     background-position:top ;
-    opacity: 0.80;
+    opacity: 0.90;
+}
+
+#foto06{
+    background-image: url(imagens/boku.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: 0.9; ;
+}
+#foto07{
+    background-image: url(imagens/jujutsu-kaisen-ultra-chromebook-wallpaper.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: 0.9; ;
+}
+
+#foto08{
+    background-image: url(imagens/NARUTO.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: 0.9; ;
+} 
+
+#foto09{
+    background-image: url(imagens/sao.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9; ;
 }
 
  
@@ -128,4 +159,18 @@ td{
     color: aliceblue;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+footer{
+    background-color: #060606;
+    padding: 5px;
+    font-size: 1vw;
+    text-align: center;
+    }
+    
 
