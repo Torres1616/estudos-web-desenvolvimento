@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form >
+    <fieldset>Calculadora</fieldset>
+        <label>Valor 1</label>
+            <input type="number" id="val1">
+        <label>Valor 2</label>
+            <input type="number" id="val2">
+
+    <select id="calculo">
+        <option >soma</option>
+        <option >subtração</option>
+        <option >multiplicação</option>
+        <option >divisão</option>
+    </select>
+</form>
+    <button type="button" onclick="executa()">Executar</button>
+    <div id="envi">Tome seu resultado!</div>
+    
+        <script>
+            const executa = () =>{
+                const val1 = Number(document.getElementById("val1").value);
+                const val2 = Number(document.getElementById("val2").value);
+                let resindex = Number(document.getElementById("calculo").selectedIndex);
+                let resul = (resindex == 0) ?soma(val1,val2) :
+                            (resindex == 1) ?subtracao(val1,val2) :
+                            (resindex == 2) ?multiplicacao(val1,val2):
+                            divisao(val1,val2);
+            document.getElementById("envi").innerHTML = `O resultado da sua operação é: ${resul}`;  
+            }
+
+
+        function soma (val1,val2){
+        var resultado1 = 0;
+        resultado1 = val1 + val2;
+        return resultado1;}
+
+        
+        function subtracao (val1,val2){
+        var resultado2 = 0;
+        resultado2 = val1 - val2;
+        return resultado2;}
+
+        function multiplicacao (val1,val2){
+        var resultado3 = 0;
+        resultado3 = val1 * val2;
+        return resultado3;}
+
+        function divisao (val1,val2){
+            if (val2 == 0) {
+                alert("Não é possivel dividir por zero");
+                return "ERRO_(divisão por ZERO)"
+            
+            } else {
+                var resultad4 = val1/val2;
+                return resultad4;
+            }
+        
+    }
+
+        
+
+ 
+
+    </script>
+</html>
